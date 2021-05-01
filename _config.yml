@@ -22,7 +22,7 @@ defaults:
 author:
   name   : "Agenda Municipal"
   avatar : "img/agendamunicipal.png"
-  bio    : "Vocabulario para la representación de datos sobre el sistema de bicicleta pública."
+  bio    : "Vocabulario para la representación de los datos sobre los eventos de la agenda municipal y sus participantes."
   links:
     - label: "Página web"
       icon: "fas fa-fw fa-link"
