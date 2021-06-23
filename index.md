@@ -29,8 +29,8 @@ only screen and (max-width: 760px),
 </style>	
   
 	<nav class="style-4">
-		<div class="row">
 <div class="menu-4">
+	<div class="row">
 	<div class="col-sm">
 		<li class="current"><a href="https://opencitydata.github.io/CatalogoFEMP/" data-hover="Catálogo">Catálogo</a></li>
 	</div>
@@ -47,15 +47,10 @@ only screen and (max-width: 760px),
 <li class="left"><a href="https://github.com/opencitydata/cultura-ocio-agenda-eventos-actividades/blob/master/README.md" data-hover="README">README</a></li>
 	</div>
 	</div>
-</div>
+	</div>
 	</nav>
 	<br><br>
 	
-	<div class="row">
-  <div class="col-sm">col-sm</div>
-  <div class="col-sm">col-sm</div>
-  <div class="col-sm">col-sm</div>
-</div>
 	
 </head>
 
