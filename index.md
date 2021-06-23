@@ -19,11 +19,11 @@ only screen and (max-width: 760px),
 	td:nth-of-type(3):before { content: "Links"; }	
 	td:nth-of-type(4):before { content: "Issues"; }
 	td:nth-of-type(5):before { content: "Descripción"; }	
-	td:nth-of-type(7):before { content: "Publicación"; }
+	td:nth-of-type(6):before { content: "Fecha Publicación"; }
 	td:nth-of-type(8):before { content: "Prefijo"; }
-	td:nth-of-type(9):before { content: "Formatos"; }
-	td:nth-of-type(10):before { content: "Liciencia"; }
-	td:nth-of-type(11):before { content: "Idiomas"; }	
+	td:nth-of-type(7):before { content: "Formatos"; }
+	td:nth-of-type(9):before { content: "Liciencia"; }
+	td:nth-of-type(10):before { content: "Idiomas"; }	
 }
 </style>	
   <nav class="style-4">
