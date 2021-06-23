@@ -1,12 +1,7 @@
 
-@media 
-only screen and (max-width: 760px),
+@media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
-
-	table, tbody, td, tr { 
-		display: block; 
-	}
-		
+	
 	td { 
 		border: none;
 		border-bottom: 0.3px solid #eee; 
@@ -17,9 +12,19 @@ only screen and (max-width: 760px),
 	
 	td:before { 
 		position: absolute;
-		left: 10px;
 		width: 35%; 
+		left: 10px;
 	}
+	
+		table, thead,tbody, td, tr { 
+		display: block; 
+	}
+	
+	 thead tr { 
+	    position: absolute;
+	    top: -999999999px;
+	    left: -99999999px;
+	  }
 	
 	.current{
 	 float:right;
