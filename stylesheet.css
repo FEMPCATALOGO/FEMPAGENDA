@@ -75,6 +75,9 @@ h1{
     transition: background-size .3s;	
 }
 
+.NavMenu a:hover, a:focus {
+    background-size: 100% 2px;
+}
 
 
 /*
