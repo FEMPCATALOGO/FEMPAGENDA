@@ -53,7 +53,6 @@ h1{
 
 .NavMenu{	
   text-transform: uppercase;
-  color: black;
 }
 
 .NavMenu a{
@@ -63,11 +62,13 @@ h1{
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;	
+  color: black;
 }
 
 .NavMenu a:hover{	
    text-decoration: none;
     background-size: 100% 2px;
+	color:black;
 }
 
 
