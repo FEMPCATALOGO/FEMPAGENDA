@@ -59,8 +59,25 @@ h1{
 }
 
 
-/** navigation bar */
+/* navigation bar */
 
+
+.NavMenu{	
+  text-transform: uppercase;	
+}
+
+.NavMenu a{
+   text-decoration: none;
+    background: linear-gradient( #fd7e14, white);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;	
+}
+
+
+
+/*
 .NavMenu {
   text-align: left;
   text-transform: uppercase;
@@ -114,6 +131,7 @@ font-size:15px;
 .NavMenu .current a {
   transform: translateY(100%);
 }
+*/
 
 .left{
  float:right;
