@@ -30,9 +30,7 @@ only screen and (max-width: 760px),
   
 	<nav>
 <div class="NavMenu">
-
-	<div class="row">
-    
+	<div class="row">    
 	<div class="col-sm">
 		<div class="current"><a href="https://opencitydata.github.io/CatalogoFEMP/" data-hover="Catálogo">Catálogo</a></div>
 	</div>
@@ -47,12 +45,9 @@ only screen and (max-width: 760px),
 	</div>
 	<div class="col-sm">
   <div class="left"><a href="https://github.com/opencitydata/cultura-ocio-agenda-eventos-actividades/blob/master/README.md" data-hover="README">README</a></div>
+	</div>    
 	</div>
-    
-	</div>
-</div>
-    
-    
+</div>     
 	</nav>
 	<br><br>
 	
