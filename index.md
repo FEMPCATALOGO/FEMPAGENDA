@@ -28,7 +28,7 @@ only screen and (max-width: 760px),
 }
 </style>	
   
-	<nav class="style-4">
+	<nav>
 <div class="menu-4">
 	<div class="row">
 	<div class="col-sm">
