@@ -1,6 +1,6 @@
 
 
-
+/*
 @media all and (max-width:500px){
     table{
         width:100%;
@@ -19,6 +19,45 @@
     tr tr{
         margin-bottom:0;
     }
+}
+*/
+
+tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+
+td, th {
+   display:block;
+/*      
+   flex-grow | flex-shrink | flex-basis   */
+   -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+   tr {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      border-bottom: 3px solid #ccc;
+      display:block;
+      
+   }
+   /*  IE9 FIX   */
+            td {
+      float: left\9;
+      width:100%;
+   }
 }
 
 
