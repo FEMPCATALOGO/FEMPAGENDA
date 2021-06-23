@@ -1,3 +1,12 @@
+
+/* Prevent docsify-themeable responsive table cells from overflowing (unscrollable) */
+@media (max-width: 30em) {
+  .markdown-section .table-wrapper td {
+    flex-wrap: wrap;
+  }
+}
+
+
 table {
     width:100%;
 }
