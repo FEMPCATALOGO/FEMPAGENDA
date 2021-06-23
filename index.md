@@ -29,7 +29,7 @@ only screen and (max-width: 760px),
 </style>	
   
 	<nav>
-<div class="menu-4">
+<div class="NavMenu">
 	<div class="row">
 	<div class="col-sm">
 		<div class="current"><a href="https://opencitydata.github.io/CatalogoFEMP/" data-hover="Catálogo">Catálogo</a></div>
