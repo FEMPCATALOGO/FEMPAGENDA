@@ -19,6 +19,7 @@
 		display: block; 
 	}
 	
+	/*Para que no salga los cabeceros */
 	 thead tr { 
 	    position: absolute;
 	    top: -999999999px;
@@ -63,6 +64,7 @@ h1{
     background-size: 0% 2px;
     transition: background-size .3s;	
   color: black;
+	text-size:15px;
 }
 
 .NavMenu a:hover{	
