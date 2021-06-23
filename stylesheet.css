@@ -61,23 +61,23 @@ h1{
 
 /** navigation bar */
 
-.menu-4 {
+.NavMenu {
   text-align: left;
   text-transform: uppercase;
   font-weight: 400;
 }
-.menu-4 * {
+.NavMenu * {
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.menu-4 li {
+.NavMenu li {
   display: inline-block;
   list-style: outside none none;
   margin: 0 1.5em;
   overflow: hidden;
 }
-.menu-4 a {
+.NavMenu a {
   padding: 0.3em 0;
   color: #212121;
   position: relative;
@@ -87,13 +87,13 @@ h1{
   text-decoration: none;
 font-size:15px;
 }
-.menu-4 a:before,
-.menu-4 a:after {
+.NavMenu a:before,
+.NavMenu a:after {
   position: absolute;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.menu-4 a:before {
+.NavMenu a:before {
   bottom: 100%;
   display: block;
   height: 3px;
@@ -101,7 +101,7 @@ font-size:15px;
   content: "";
   background-color: #e67e22;
 }
-.menu-4 a:after {
+.NavMenu a:after {
   padding: 0.3em 0;
   position: absolute;
   bottom: 100%;
@@ -110,8 +110,8 @@ font-size:15px;
   color: #212121;
   white-space: nowrap;
 }
-.menu-4 li:hover a,
-.menu-4 .current a {
+.NavMenu .hover a,
+.NavMenu .current a {
   transform: translateY(100%);
 }
 
