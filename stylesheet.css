@@ -20,7 +20,8 @@
 	}
 	
 	/*Para que no salga los cabeceros */
-	 thead tr { 
+	 thead tr {
+	   border-top: none;
 	    position: absolute;
 	    top: -999999999px;
 	    left: -99999999px;
