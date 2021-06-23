@@ -63,7 +63,8 @@ h1{
 
 
 .NavMenu{	
-  text-transform: uppercase;	
+  text-transform: uppercase;
+  color: black;
 }
 
 .NavMenu a{
