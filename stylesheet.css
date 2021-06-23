@@ -1,6 +1,5 @@
 
-@media only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+@media only screen and (max-width: 760px) {
 	
 	td { 
 		border: none;
@@ -66,7 +65,7 @@ h1{
     transition: background-size .3s;	
 }
 
-.NavMenu a:hover, a:focus {	
+.NavMenu a:hover{	
    text-decoration: none;
     background-size: 100% 2px;
 }
