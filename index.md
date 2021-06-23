@@ -9,8 +9,7 @@ classes: wide
 ---
 
 <head>
-<link href="stylesheet.css" rel="stylesheet"/>
- 
+<link href="stylesheet.css" rel="stylesheet"/> 
 <style>
 td:nth-of-type(1):before { content: "Dominio"; }
 	td:nth-of-type(2):before { content: "Estado"; }
@@ -25,9 +24,7 @@ td:nth-of-type(1):before { content: "Dominio"; }
 
 	td:nth-of-type(10):before { content: "Liciencia"; }
 	td:nth-of-type(11):before { content: "Idiomas"; }		
-</style>
-	
-	
+</style>	
   <nav class="style-4">
 <ul class="menu-4">
 	<li class="current"><a href="https://fempcatalogo.github.io/FEMPTFG/" data-hover="Catálogo">Catálogo</a></li>
