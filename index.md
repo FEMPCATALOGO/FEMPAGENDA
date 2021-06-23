@@ -26,16 +26,36 @@ only screen and (max-width: 760px),
 	td:nth-of-type(10):before { content: "Idiomas"; }	
 }
 </style>	
-  <nav class="style-4">
+  
+	<nav class="style-4">
+		<div class="row">
 <ul class="menu-4">
-	<li class="current"><a href="https://fempcatalogo.github.io/FEMPTFG/" data-hover="Catálogo">Catálogo</a></li>
+	<div class="col-sm">
+		<li class="current"><a href="https://opencitydata.github.io/CatalogoFEMP/" data-hover="Catálogo">Catálogo</a></li>
+	</div>
+	<div class="col-sm">
+	<li class="left"><a href="/CatalogoFEMP/contact/" data-hover="Contact">Contact</a></li>
+	</div>
+	<div class="col-sm">
 	<li class="left"><a href="http://vocab.linkeddata.es/datosabiertos/" data-hover="Open Data Cities">Open Data Cities</a></li>
+	</div>
+	<div class="col-sm">
 	<li class="left"><a href="https://github.com/opencitydata/" data-hover="Open City GitHub">Open City GitHub</a></li>
-<li class="left"><a href="https://github.com/CiudadesAbiertas/vocab-sector-publico-agenda-municipal/blob/master/README.md" data-hover="README">README</a></li>
+	</div>
+	<div class="col-sm">
+<li class="left"><a href="https://github.com/opencitydata/cultura-ocio-agenda-eventos-actividades/blob/master/README.md" data-hover="README">README</a></li>
+	</div>
+	</div>
 </ul>
 	</nav>
 	<br><br>
-  
+	
+	<div class="row">
+  <div class="col-sm">col-sm</div>
+  <div class="col-sm">col-sm</div>
+  <div class="col-sm">col-sm</div>
+</div>
+	
 </head>
 
 
