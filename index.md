@@ -11,6 +11,9 @@ classes: wide
 <head>
 <link href="stylesheet.css" rel="stylesheet"/> 
 <style>
+	@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
 	td:nth-of-type(1):before { content: "Dominio"; }
 	td:nth-of-type(2):before { content: "Estado"; }
 	td:nth-of-type(3):before { content: "Links"; }	
@@ -20,7 +23,8 @@ classes: wide
 	td:nth-of-type(8):before { content: "Prefijo"; }
 	td:nth-of-type(9):before { content: "Formatos"; }
 	td:nth-of-type(10):before { content: "Liciencia"; }
-	td:nth-of-type(11):before { content: "Idiomas"; }		
+	td:nth-of-type(11):before { content: "Idiomas"; }	
+}
 </style>	
   <nav class="style-4">
 <ul class="menu-4">
