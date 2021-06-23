@@ -11,17 +11,14 @@ classes: wide
 <head>
 <link href="stylesheet.css" rel="stylesheet"/> 
 <style>
-td:nth-of-type(1):before { content: "Dominio"; }
+	td:nth-of-type(1):before { content: "Dominio"; }
 	td:nth-of-type(2):before { content: "Estado"; }
-	td:nth-of-type(3):before { content: "Links"; }
-	
+	td:nth-of-type(3):before { content: "Links"; }	
 	td:nth-of-type(4):before { content: "Issues"; }
-	td:nth-of-type(5):before { content: "Descripción"; }
-	
+	td:nth-of-type(5):before { content: "Descripción"; }	
 	td:nth-of-type(7):before { content: "Publicación"; }
 	td:nth-of-type(8):before { content: "Prefijo"; }
 	td:nth-of-type(9):before { content: "Formatos"; }
-
 	td:nth-of-type(10):before { content: "Liciencia"; }
 	td:nth-of-type(11):before { content: "Idiomas"; }		
 </style>	
