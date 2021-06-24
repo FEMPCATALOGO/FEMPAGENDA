@@ -32,16 +32,16 @@ only screen and (max-width: 760px),
 <div class="NavMenu">
 	<div class="row">    
 	<div class="col-sm">
-		<div class="current"><a href="https://opencitydata.github.io/CatalogoFEMP/" data-hover="Catálogo">Catálogo</a></div>
+		<div class="current"><a href="https://opencitydata.github.io/CatalogoFEMP/"  style="text-decoration: none;">Catálogo</a></div>
 	</div>
 	<div class="col-sm">
-	<div class="left"><a href="/CatalogoFEMP/contact/" data-hover="Contact">Contact</a></div>
+	<div class="left"><a href="/CatalogoFEMP/contact/"  style="text-decoration: none;">Contact</a></div>
 	</div>
 	<div class="col-sm">
-	<div class="left"><a href="http://vocab.linkeddata.es/datosabiertos/" data-hover="Open Data Cities">Open Data Cities</a></div>
+	<div class="left"><a href="http://vocab.linkeddata.es/datosabiertos/"  style="text-decoration: none;">Open Data Cities</a></div>
 	</div>
 	<div class="col-sm">
-	<div class="left"><a href="https://github.com/opencitydata/" data-hover="Open City GitHub">Open City GitHub</a></div>
+	<div class="left"><a href="https://github.com/opencitydata/"  style="text-decoration: none;">Open City GitHub</a></div>
 	</div>
 	<div class="col-sm">
   <div class="left"><a href="https://github.com/opencitydata/cultura-ocio-agenda-eventos-actividades/blob/master/README.md" data-hover="README">README</a></div>
